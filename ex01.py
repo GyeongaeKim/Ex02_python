@@ -113,3 +113,33 @@ print(b)
 
 # index 찾기
 print(b.index(1000))
+
+
+
+
+
+print("리스트의 메소드2=======================")
+b = [1, 123, 1000, 12, 1000]
+print(b)
+
+#b[5:] = [1,2,3]
+#print(b)
+b.insert(5, [1,2,3])
+print(b[5][1])
+
+
+# 카운트
+print(len(b))
+print(b.count(1000))
+
+# 뒤집기
+b.reverse()
+print(b)
+
+# 정렬
+b.sort()
+print(b)
+
+# index 찾기
+print(b.index(1000))    #1000이 여러개 있을때는 처음 1000출력
+
