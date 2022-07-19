@@ -24,6 +24,8 @@ print('숫자를 입력해 주세요')
 no = input()
 print(no)
 
-no = input('숫자를 입력해 주세요 :')
-print(no)
+print('숫자를 입력해 주세요 :')
+print("숫자: ", end="")
+num = input()
+print(num)
 
